@@ -8,7 +8,6 @@ import SeatBookingApp from './containers/SeatBookingApp';
 import reducer from './reducers';
 import { getAllSeats } from './actions';
 
-
 const middleware = [thunk];
 // middleware will print the logs for state changes
 if (process.env.NODE_ENV !== 'production') {
